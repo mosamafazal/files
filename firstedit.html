@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>Osama Fazal</title>
+    <!-- <link rel="stylesheet" href="firstedit.css"> -->
+    <style>
+        .cv{
+    text-align: center;
+    /* color:rgb(78, 78, 78); */
+    font-size: 50px;   
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px; 
+    border-bottom: none;
+}
+.name{
+    text-align: center;
+    /* color:rgb(78, 78, 78); */
+    font-size: 30px;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 18px;
+    border-bottom: none;
+    border-top: none;
+}
+.name :hover{
+  text-transform: uppercase;
+
+}
+.email{
+    text-align: center;
+    /* color:rgb(78, 78, 78); */
+    font-size: 15px;
+    border-style: solid;
+    border-top: none;
+    border-width: 5px;
+    border-radius: 18px;
+}
+.heading{
+    font-size: 24px;
+    border: 2px;
+    border-style: solid;
+    border-width: 2px;
+    /* color: white; */
+    border-color: gray;
+    border-radius: 8px;
+    background-color: gray;
+}
+p{
+    font-size: 18px;
+    /* color:rgb(78, 78, 78); */
+    font-family: monospace,'Times New Roman', Times, serif;
+}
+.li{
+    font-size: 18px;
+    /* color:rgb(78, 78, 78); */
+    font-family: monospace,'Times New Roman', Times, serif;
+}
+.ul{
+    list-style: square ;
+}
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .button{ 
+    cursor: pointer;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 8px;
+    border-top-width: 2px;
+    border-bottom-width: 2px; 
+    border-left-width: 4px;
+    border-right-width: 4px;
+    float: right;
+    background-color: white;
+    }
+  .myFunction :hover {
+    background: #e6e6e6;
+  } 
+  
+.fb{
+  border-width: 2px;
+  border-style: outset;
+  border-radius: 12px;
+  
+}
+.insta{
+  border-width: 2px;
+  border-style: outset;
+  border-radius: 12px;
+
+}
+.twiter{
+  border-width: 2px;
+  border-style: outset;
+  border-radius: 12px;
+
+}
+
+.fb :hover{
+  cursor: pointer;
+  -webkit-transform: rotate(360deg) scale(1.1,1.1);
+  transition: 0.5s;
+}
+.insta :hover{
+  cursor: pointer;
+  -webkit-transform: rotate(360deg) scale(1.1,1.1);
+  transition: 0.5s;
+}
+.twiter :hover{
+  cursor: pointer;
+  -webkit-transform: rotate(360deg) scale(1.1,1.1);
+  transition: 0.5s;
+}
+.img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+    </style>
+
+</head>
+
+<body>
+    <table>
+        <tr>
+            <button class="button" onclick="myFunction()">Enable/Disable(dark-mode)</button>
+        
+            <script>
+                function myFunction() {
+                   var element = document.body;
+                   element.classList.toggle("dark-mode");
+                }
+                </script>
+        
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <div class="cv">
+                Curriculum vitae
+            </div>
+        </tr>
+        
+        <tr>
+            <div class="name">
+                <b>Muhammad Osama Fazal Siddiqui</b>
+            </div>
+        </tr>
+        <tr>
+            <div class="email">
+                osamafazal11@gmail.com
+            </div>
+        </tr>
+        <div class="container ">
+        <table class="img">
+            <div>
+              <td class="fb img-fluid"> <img src="fb.png" alt="Facebook"></td> 
+              <td class="insta img-fluid"> <img src="insta.png" alt="Instagram"></td> 
+               <td class="twiter img-fluid"> <img src="twiter.png" alt="Twiter"></td>
+            </div>
+        </table>
+    </div>
+        <tr>
+            <div class="heading">
+               Objective: 
+            </div>
+            <p class=paragraph>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis commodi eligendi minus
+                sint blanditiis, et quia facere saepe molestiae delectus. Ea, veniam harum voluptas ab a nemo doloribus
+                totam reiciendis tempore aliquam nostrum ipsam enim voluptatibus, quia inventore qui quis fugit fuga
+                cupiditate distinctio porro blanditiis cumque officia iste. Beatae?</p>
+        </tr>
+        <tr>
+            <div class="heading">
+                Qaulification:
+            </div>
+            <div>
+                <ul class="ul">
+                    <div class="li">
+                        <li>Graduation</li>
+                        <li>Intermediate</li>
+                        <li>Matriculation</li>
+                    </div>
+                </ul>
+            </div>
+        </tr>
+        <tr>
+            <div class="heading">
+                Experiance:
+            </div>
+            <div>
+                <ul class="ul">
+                    <div class="li">
+                        <li>5 year Experiance in bla bla bla.</li>
+                        <li>2 year Experiance in PUBG online game.</li>
+                        <li>3 year Experiance as a 'Ace' player.</li>
+                        <li>4 year Experiance as 'Conquerer' player.
+                        </li>
+                        <li>CEO of ESPORT.
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </tr>
+        <tr>
+            <div class="heading">
+                Personal Information:
+            </div>
+            <div>
+                <ol>
+                    <div class="li">
+                        <li>Name: Muhammad Osama Fazal Siddiqui</li>
+                        <li>Father name: Fazal Imam Siddiqui</li>
+                        <li>CNIC: 42201-*******-7</li>
+                        <li>Domicile: Karachi</li>
+                        <li>Contact: 0342-******6</li>
+                        <li>Email: osamafazal11@gmail</li>
+                        <li>Address: Karachi</li>
+                        <li>Religion: Islam</li>
+                    </div>
+                </ol>
+            </div>
+        </tr>
+    </table>
+</body>
+
+</html>
